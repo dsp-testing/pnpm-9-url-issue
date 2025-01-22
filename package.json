@@ -1,0 +1,23 @@
+{
+  "name": "pnpm-9-url-issue",
+  "version": "1.0.0",
+  "description": "pnpm-9-url-issue",
+  "author": "CaoMeiYouRen",
+  "private": true,
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "scripts": {},
+  "dependencies": {
+    "crypto-hash": "github:CaoMeiYouRen/crypto-hash"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-cmyr"
+    }
+  }
+}
